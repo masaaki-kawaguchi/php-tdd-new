@@ -1,6 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
 require('./Dollar.php');
+
 class MoneyTest extends TestCase
 {
     public function testMultiplation()
