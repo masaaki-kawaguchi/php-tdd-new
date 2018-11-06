@@ -19,6 +19,9 @@
 
 MoneyTest.phpを作成
 
+------
+
+
 しかしながら、
 ```
 vendor/bin/phpunit MoneyTest.php
