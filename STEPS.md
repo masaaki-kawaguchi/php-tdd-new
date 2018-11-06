@@ -19,6 +19,9 @@
 
 MoneyTest.phpを作成
 
+------
+
+
 しかしながら、
 ```
 vendor/bin/phpunit MoneyTest.php
@@ -27,3 +30,13 @@ vendor/bin/phpunit MoneyTest.php
   
   
 これが第一歩
+
+-----
+
+当然ながらTODOリストの項目は増える  
+- [ ] $5 + 10CHF = $10 (レートが2:1の時)  
+- [ ] $5 * 2 = $10  
+- [ ] Dollerクラスを持つDoller.phpの存在
+- [ ] Dollerクラスにamountというプロパティ
+- [ ] Dollerクラスにtimesというメソッド
+
