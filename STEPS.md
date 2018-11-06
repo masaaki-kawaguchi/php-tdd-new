@@ -1,27 +1,16 @@
-# Step2
+# Step3
 
-もう一度TODOリストを復習
-
-- [ ] $5 + 10CHF = $10 (レートが2:1の時)  
-- [ ] $5 * 2 = $10  
-- [ ] Dollarクラスを持つDollar.phpの存在
-- [ ] Dollarクラスにamountというプロパティ
-- [ ] Dollarクラスにtimesというメソッド
-
-
-**テスト駆動開発において、細かくステップを踏むのが大事**
-
+最低限のステップで
 ```
 vendor/bin/phpunit MoneyTest.php
 ```
+を通すため、**$amount**に直接5×25×25×25×25×2を入れる。  
+Dollar.phpはこのようになる。
 
-を実行した時にまずDoller.phpが存在しないことを怒られるので、上のチェックリストを考えつつDoller.phpを作る  
 
-
+当然ながら、
 ```
 vendor/bin/phpunit MoneyTest.php
 ```
+は通る
 
-を実行すると、エラーではなくテストの失敗に変わっている 
- 
-こういう細かいステップを踏んでいく

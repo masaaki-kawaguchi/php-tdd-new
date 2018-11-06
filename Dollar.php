@@ -1,7 +1,7 @@
 <?php
 class Dollar{
 	
-	public $amount;
+	public $amount = 5 * 2;
 	
 	public function __construct($amount){
     
