@@ -6,8 +6,8 @@ class MoneyTest extends TestCase
 {
     public function testMultiplation()
     {
-        $doller = new Doller(5);
-        $doller->times(2);
-        $this->assertEquals(10, $doller->amount);
+        $dollar = new Dollar(5);
+        $dollar->times(2);
+        $this->assertEquals(10, $dollar->amount);
     }	
 }
