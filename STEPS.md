@@ -4,7 +4,7 @@
 ```
 vendor/bin/phpunit MoneyTest.php
 ```
-を通すため、**$amount**に直接5×25×25×25×25×2を入れる。  
+を通すため、**$amount**に直接5*2を入れる。  
 Dollar.phpはこのようになる。
 
 
